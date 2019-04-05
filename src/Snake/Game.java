@@ -1,4 +1,4 @@
-package Game;
+package snake;
 
 public class Game {
 	int level;

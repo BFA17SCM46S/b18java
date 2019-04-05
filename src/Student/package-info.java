@@ -1,1 +1,1 @@
-package Student;
+package student;

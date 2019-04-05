@@ -1,1 +1,1 @@
-package Snake;
+package snake;

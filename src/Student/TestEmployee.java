@@ -1,4 +1,4 @@
-package Student;
+package student;
 
 class Employee {
 	int id;

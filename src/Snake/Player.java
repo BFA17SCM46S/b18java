@@ -1,4 +1,4 @@
-package Player;
+package snake;
 
 public class Player {
 	/**

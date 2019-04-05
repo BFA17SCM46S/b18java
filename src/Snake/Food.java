@@ -1,4 +1,4 @@
-package Food;
+package snake;
 
 public class Food {
 	/**
