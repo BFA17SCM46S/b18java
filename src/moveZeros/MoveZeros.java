@@ -2,6 +2,18 @@ package moveZeros;
 
 import java.util.Arrays;
 
+
+/**
+ * Dry run
+ * [0, 2, 0, 1, 0, 2, 1, 2, 1, 0] 
+ * [2, 0, 0, 1, 0, 2, 1, 2, 1, 0] 
+ * [2, 1, 0, 0, 0, 2, 1, 2, 1, 0] 
+ * [2, 1, 2, 0, 0, 0, 1, 2, 1, 0] 
+ * [2, 1, 2, 1, 0, 0, 0, 2, 1, 0]
+ * [2, 1, 2, 1, 2, 0, 0, 0, 1, 0] 
+ * [2, 1, 2, 1, 2, 1, 0, 0, 0, 0]
+ */
+
 public class MoveZeros {
 
 	public static void moveZeros(int[] numArr) {
@@ -17,11 +29,11 @@ public class MoveZeros {
 				j = i;
 			}
 			/**
-			 * j is the position of the '0'
-			 * numArr[i] is a non-zero and will replace the value at the previous '0' position 
+			 * j is the position of the '0' numArr[i] is a non-zero and will replace the
+			 * value at the previous '0' position
 			 */
 			else if (numArr[i] != 0 && j != -1) {
-				numArr[j] = numArr[i];              
+				numArr[j] = numArr[i];
 				numArr[i] = 0;
 				j++;
 				System.out.println(Arrays.toString(numArr));
