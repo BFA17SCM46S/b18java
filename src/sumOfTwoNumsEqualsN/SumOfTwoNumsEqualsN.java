@@ -18,7 +18,7 @@ public class SumOfTwoNumsEqualsN {
 		 * if subtracted is in the hashSet, display it with the numArr[i]
 		 */
 		for(int i=0; i<numArr.length; i++) {
-			int subtracted = sum-numArr[i];
+			int subtracted = sum-numArr[i];\\it is one substration
 			
 			if(hashSet.contains(subtracted)) {
 				System.out.println("Two numbers: " + numArr[i] + ", " + subtracted);
